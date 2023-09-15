@@ -2,6 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .h1-hind-d {
+    @apply text-9xl font-hind font-bold;
+  }
+  .h2-hind-d {
+    @apply text-8xl font-hind font-bold;
+  }
+  .h3-hind-d {
+    @apply text-7xl font-hind font-bold;
+  }
+  .h4-hind-d {
+    @apply text-6xl font-hind font-bold;
+  }
+  .h5-hind-d {
+    @apply text-5xl font-hind font-bold;
+  }
+  .h6-hind-d {
+    @apply text-3xl font-hind font-bold;
+  }
+  .h1-hind-m {
+    @apply text-7xl font-hind font-bold;
+  }
+  .h2-hind-m {
+    @apply text-6xl font-hind font-bold;
+  }
+  .h3-hind-m {
+    @apply text-5xl font-hind font-bold;
+  }
+  .h4-hind-m {
+    @apply text-4xl font-hind font-bold;
+  }
+  .h5-hind-m {
+    @apply text-3xl font-hind font-bold;
+  }
+  .h6-hind-m {
+    @apply text-2xl font-hind font-bold;
+  }
+  .button-lg {
+    @apply text-lg font-hind font-bold;
+  }
+  .button-md {
+    @apply text-base font-hind font-bold;
+  }
+  .button-sm {
+    @apply text-sm font-hind font-bold;
+  }
+  .body-lg {
+    @apply text-xl font-hind;
+  }
+  .body-md {
+    @apply text-base font-hind;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,12 +70,3 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
