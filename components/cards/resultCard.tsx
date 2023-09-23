@@ -8,7 +8,7 @@ interface ResultCardProperties {
   title:string
 }
 
-const ResultCard = ({ image_path, title }:ResultCardProperties) => {
+const ResultCard: React.FC<ResultCardProperties> = ({ image_path, title }) => {
   const [isDesktop, setIsDesktop] = useState(false)
   useEffect(() => {
     const handleWindowResize = () => {

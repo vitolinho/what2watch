@@ -10,8 +10,7 @@ interface HomeCardPorperties {
   info: string,
 }
 
-// eslint-disable-next-line no-unused-vars
-const HomeCard = ({ backgroundImage, title, info } :HomeCardPorperties) => {
+const HomeCard: React.FC<HomeCardPorperties> = ({ backgroundImage, title, info }) => {
   const cardStyle = {
     background: `url(${backgroundImage}) no-repeat center center`,
     backgroundSize: "cover"
