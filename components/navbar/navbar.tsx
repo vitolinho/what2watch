@@ -35,7 +35,7 @@ const NavBar = () => {
   }, [])
 
   return (
-    <div className="w-full bg-background-500 py-4 lg:py-6">
+    <div className="w-full bg-background-500 py-4 sticky top-0 z-40 lg:py-6">
       <div className="flex flex-row justify-between items-center px-5 lg:px-20">
         <div className="flex flex-row gap-x-20">
           <Image

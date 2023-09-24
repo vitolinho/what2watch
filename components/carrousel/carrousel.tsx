@@ -26,8 +26,8 @@ const Carrousel: React.FC<CarousselProperties> = ({ images }) => {
     return () => window.removeEventListener("resize", handleWindowResize)
   }, [])
   return (
-    <div>
-      <Swiper loop={true} navigation={isNavigationEnabled} modules={[Pagination, Navigation]}slidesPerView={10} spaceBetween={30}>
+    <div className="z-0">
+      <Swiper loop={true} navigation={isNavigationEnabled} modules={[Pagination, Navigation]} slidesPerView={isNavigationEnabled ? 6 : 2} spaceBetween={20}>
         {images.map((image, index) => (
           <SwiperSlide key={index}>
             <Image
