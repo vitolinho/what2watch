@@ -18,8 +18,7 @@ const NavBar = () => {
   // TODO add good paths
   const menuLinks = [
     { path: "/", label: "accueil" },
-    { path: "/#", label: "films" },
-    { path: "/#", label: "séries" }
+    { path: "/films", label: "films" }
   ]
 
   const pathname = usePathname()
@@ -52,7 +51,7 @@ const NavBar = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-row gap-x-5">
+        <div className="flex flex-row gap-x-5 pl-5">
           <Button variant={"link"} size="icon" className="text-2xl">
             {/* TODO add good path */}
             <Link href={"/#"}>
