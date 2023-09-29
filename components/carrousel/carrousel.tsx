@@ -6,13 +6,11 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 import { Pagination, Navigation } from "swiper/modules"
 import { useEffect, useState } from "react"
-import Image from "next/image"
+import ResultCard from "../cards/resultCard"
 
 interface CarousselProperties {
   images: string[]
 }
-
-// TODO add good propotions
 
 const Carrousel: React.FC<CarousselProperties> = ({ images }) => {
   const [isNavigationEnabled, setNavigationEnabled] = useState(false)
@@ -30,12 +28,7 @@ const Carrousel: React.FC<CarousselProperties> = ({ images }) => {
       <Swiper loop={true} navigation={isNavigationEnabled} modules={[Pagination, Navigation]} slidesPerView={isNavigationEnabled ? 6 : 2} spaceBetween={20}>
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <Image
-              src={`${image}`}
-              alt={`${image}`}
-              height={200}
-              width={200}
-            />
+            <ResultCard key={index + 1} id={index + 1} image_path={image} showTitle={true} />
           </SwiperSlide>
         ))}
       </Swiper>
