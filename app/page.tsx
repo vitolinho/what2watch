@@ -3,38 +3,26 @@ import Carrousel from "@/components/carrousel/carrousel"
 import Footer from "@/components/footer/footer"
 import NavBar from "@/components/navbar/navbar"
 import HeroBanner from "@/components/heroBanner/heroBanner"
+import films from "@/data/films.json"
+import film from "@/data/film.json"
+
+const getRandomElement = (list:any[]) => {
+  const randomIndex = Math.floor(Math.random() * list.length)
+  return list[randomIndex]
+}
 
 export default function Home() {
-  const images = [
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg",
-    "/covers/hp-1.jpg"
-  ]
+  const images: any[] = []
+  {films.map((film:any)=> {
+    images.push(film.image_path)
+  })}
+  let randomMovie = getRandomElement(film)
   return (
     <>
       <NavBar/>
       <div className="py-10 flex flex-col gap-y-10 lg:pt-0">
-        <HomeCard backgroundImage={"/covers/hp-1.jpg"} title={"Harry Potter 1"} description={"Science Fiction · Magie · Avada Kedavra"} />
-        <HeroBanner backgroundImage={"/covers/hp-1.jpg"} title={""} description={""}/>
+        <HomeCard backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis} />
+        <HeroBanner backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis}/>
         <div className="flex flex-col gap-y-5 pl-5 lg:pl-20">
           <p className="button-lg lg:h6-hind-d">Tendances actuelles</p>
           <Carrousel images={images}/>

@@ -28,8 +28,8 @@ const HomeCard: React.FC<HomeCardPorperties> = ({ backgroundImage, title, descri
   }, [])
   return (
     <div className={isDesktop ? "hidden" : "px-5"}>
-      <div className="flex flex-col gap-y-3 h-[450px] rounded-md" style={cardStyle}>
-        <div className="flex flex-col justify-center items-center mt-[300px]">
+      <div className="flex flex-col gap-y-3 h-fit rounded-md py-5" style={cardStyle}>
+        <div className="flex flex-col justify-center items-center mt-[300px] px-5">
           <p className="h4-hind-m">{title}</p>
           <p className="button-sm">{description}</p>
         </div>

@@ -30,8 +30,8 @@ const HeroBanner: React.FC<HeroBannerProperties> = ({ backgroundImage, title, de
     <div className={isDesktop ? "h-screen w-full flex justify-start items-end z-0" : "hidden"} style={cardStyle}>
       <div className="w-[900px] flex flex-col gap-y-10 px-20 py-[120px] z-1">
         <div className="flex flex-col gap-y-3">
-          <p className="h5-hind-d">Harry Potter 1</p>
-          <p className="body-lg">Harry Potter, un jeune orphelin, est élevé par son oncle et sa tante qui le détestent. Alors qu&apos;il était haut comme trois pommes, ces derniers lui ont raconté que ses parents étaient morts dans un accident de voiture. Le jour de son onzième anniversaire, Harry reçoit la visite inattendue d&apos;un homme gigantesque se nommant Rubeus Hagrid, et celui-ci lui révèle qu&apos;il est en fait le fils de deux puissants magiciens et qu&apos;il possède lui aussi d&apos;extraordinaires pouvoirs.</p>
+          <p className="h5-hind-d">{title}</p>
+          <p className="body-lg">{description}</p>
         </div>
         <div className="flex flex-row gap-x-10 z-1">
           <Button variant={"primary"} size={"lg"} icon={<RiPlayFill/>} iconPosition="left">Lecture</Button>

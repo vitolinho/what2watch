@@ -15,7 +15,6 @@ const NavBar = () => {
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
-  // TODO add good paths
   const menuLinks = [
     { path: "/", label: "accueil" },
     { path: "/films", label: "films" }
