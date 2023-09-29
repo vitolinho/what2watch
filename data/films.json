@@ -2,51 +2,51 @@
   {
     "id": 1,
     "title": "Film 1",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 2,
     "title": "Film 2",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 3,
     "title": "Film 3",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 4,
     "title": "Film 4",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 5,
     "title": "Film 5",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 6,
     "title": "Film 6",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 7,
     "title": "Film 7",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 8,
     "title": "Film 8",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 9,
     "title": "Film 9",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   },
   {
     "id": 10,
     "title": "Film 10",
-    "image_path": "/films/hp-1.jpg"
+    "image_path": "/movies/hp-1.jpg"
   }
 ]
