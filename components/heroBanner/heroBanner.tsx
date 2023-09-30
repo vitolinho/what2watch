@@ -5,14 +5,16 @@ import { useEffect, useState } from "react"
 import Button from "@/components/buttons/button"
 import { RiPlayFill } from "react-icons/ri"
 import { RiInformationFill } from "react-icons/ri"
+import Link from "next/link"
 
 interface HeroBannerProperties {
   backgroundImage: string,
   title: string,
-  description: string
+  description: string,
+  id:number
 }
 
-const HeroBanner: React.FC<HeroBannerProperties> = ({ backgroundImage, title, description }) => {
+const HeroBanner: React.FC<HeroBannerProperties> = ({ backgroundImage, title, description, id }) => {
   const cardStyle = {
     background: `url(${backgroundImage}) no-repeat center center`,
     backgroundSize: "cover"
@@ -34,8 +36,12 @@ const HeroBanner: React.FC<HeroBannerProperties> = ({ backgroundImage, title, de
           <p className="body-lg">{description}</p>
         </div>
         <div className="flex flex-row gap-x-10 z-1">
-          <Button variant={"primary"} size={"lg"} icon={<RiPlayFill/>} iconPosition="left">Lecture</Button>
-          <Button variant={"secondary"} size={"lg"} icon={<RiInformationFill/>} iconPosition="left">Plus d&apos;infos</Button>
+          <Link href={`/films/${id}/#watch-movie`}>
+            <Button variant={"primary"} size={"lg"} icon={<RiPlayFill/>} iconPosition="left">Lecture</Button>
+          </Link>
+          <Link href={`/films/${id}`}>
+            <Button variant={"secondary"} size={"lg"} icon={<RiInformationFill/>} iconPosition="left">Plus d&apos;infos</Button>
+          </Link>
         </div>
       </div>
     </div>

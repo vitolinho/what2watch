@@ -21,8 +21,8 @@ export default function Home() {
     <>
       <NavBar/>
       <div className="py-10 flex flex-col gap-y-10 lg:pt-0">
-        <HomeCard backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis} />
-        <HeroBanner backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis}/>
+        <HomeCard backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis} id={randomMovie.id}/>
+        <HeroBanner backgroundImage={randomMovie.image_path} title={randomMovie.title} description={randomMovie.synopsis} id={randomMovie.id}/>
         <div className="flex flex-col gap-y-5 pl-5 lg:pl-20">
           <p className="button-lg lg:h6-hind-d">Tendances actuelles</p>
           <Carrousel images={images}/>

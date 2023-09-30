@@ -20,7 +20,7 @@ export default function Home({ params }:{ params:IParameters}) {
           <p className="h5-hind-m">{data.title}</p>
           <p className="body-md">{data.synopsis}</p>
         </div>
-        <div className="flex flex-col gap-y-10">
+        <div className="flex flex-col gap-y-10" id="watch-movie">
           <VideoPlayer movie_path={data.movie_path}/>
           <Button size="md" variant={"primary"} className="w-full">
             Télécharger
