@@ -22,9 +22,11 @@ export default function Home({ params }:{ params:IParameters}) {
         </div>
         <div className="flex flex-col gap-y-10" id="watch-movie">
           <VideoPlayer movie_path={data.movie_path}/>
-          <Button size="md" variant={"primary"} className="w-full">
-            Télécharger
-          </Button>
+          <a href={data.movie_path} download>
+            <Button size="md" variant={"primary"} className="w-full">
+              Télécharger
+            </Button>
+          </a>
         </div>
         <div className="flex flex-col gap-y-3">
           <p className="body-md">Réalisateur: {data.realisator}</p>
