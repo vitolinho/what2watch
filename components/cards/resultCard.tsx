@@ -8,10 +8,11 @@ interface ResultCardProperties {
   image_path: string,
   title?:string,
   id: number,
-  showTitle: boolean
+  showTitle: boolean,
+  animation: boolean
 }
 
-const ResultCard: React.FC<ResultCardProperties> = ({ image_path, title, id, showTitle }) => {
+const ResultCard: React.FC<ResultCardProperties> = ({ image_path, title, id, showTitle, animation }) => {
   const [isDesktop, setIsDesktop] = useState(false)
   useEffect(() => {
     const handleWindowResize = () => {
@@ -21,15 +22,16 @@ const ResultCard: React.FC<ResultCardProperties> = ({ image_path, title, id, sho
     handleWindowResize()
     return () => window.removeEventListener("resize", handleWindowResize)
   }, [])
+  const animationClassName = animation ? "ease-in-out duration-300 hover:scale-125" : ""
 
   return (
-    <div className="h-fit w-fit ease-in-out duration-300 hover:scale-125">
+    <div className={`${ isDesktop && animationClassName } h-fit w-fit`}>
       <Link href={`/films/${id}`} className={"flex flex-col gap-y-4"}>
         <Image
           src={image_path}
           alt={image_path}
           height={200}
-          width={isDesktop ? 300 : 184}
+          width={isDesktop ? 250 : 184}
           className="rounded-md"
         />
         {showTitle && <p className="body-lg">{title}</p>}

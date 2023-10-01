@@ -45,6 +45,7 @@ const SearchInput = () => {
                 id={movie.id}
                 showTitle={true}
                 title={movie.title}
+                animation={false}
               />
             ))}
           </div>

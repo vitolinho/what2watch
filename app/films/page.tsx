@@ -11,7 +11,7 @@ export default function Home() {
         <p className="button-lg lg:h6-hind-d">Nos Films</p>
         <div className="grid grid-cols-2 gap-10 gap-y-20 lg:grid-cols-6">
           {films.map((film:any)=> {
-            return <ResultCard key={film.id} id={film.id} image_path={film.image_path} title={film.title} showTitle={true}/>
+            return <ResultCard key={film.id} id={film.id} image_path={film.image_path} title={film.title} showTitle={true} animation={false}/>
           })}
         </div>
       </div>

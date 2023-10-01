@@ -28,7 +28,7 @@ const Carrousel: React.FC<CarousselProperties> = ({ images }) => {
       <Swiper loop={true} navigation={isNavigationEnabled} modules={[Pagination, Navigation]} slidesPerView={isNavigationEnabled ? 6 : 2} spaceBetween={20}>
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <ResultCard key={index + 1} id={index + 1} image_path={image} showTitle={true} />
+            <ResultCard key={index + 1} id={index + 1} image_path={image} showTitle={true} animation={true}/>
           </SwiperSlide>
         ))}
       </Swiper>
