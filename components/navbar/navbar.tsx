@@ -52,8 +52,7 @@ const NavBar = () => {
         </div>
         <div className="flex flex-row gap-x-5 pl-5">
           <Button variant={"link"} size="icon" className="text-2xl">
-            {/* TODO add good path */}
-            <Link href={"/#"}>
+            <Link href={"/search"} className={`${pathname === "/search" ? "text-primary-500" : "text-text-500"}`}>
               <FiSearch/>
             </Link>
           </Button>
