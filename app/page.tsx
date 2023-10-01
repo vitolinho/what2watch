@@ -3,7 +3,6 @@ import Carrousel from "@/components/carrousel/carrousel"
 import Footer from "@/components/footer/footer"
 import NavBar from "@/components/navbar/navbar"
 import HeroBanner from "@/components/heroBanner/heroBanner"
-import films from "@/data/films.json"
 import film from "@/data/film.json"
 
 const getRandomElement = (list:any[]) => {
@@ -13,7 +12,7 @@ const getRandomElement = (list:any[]) => {
 
 export default function Home() {
   const images: any[] = []
-  {films.map((film:any)=> {
+  {film.map((film:any)=> {
     images.push(film.image_path)
   })}
   let randomMovie = getRandomElement(film)
