@@ -3,110 +3,99 @@
     "id": 1,
     "title": "Arrête-moi si tu peux",
     "synopsis": "Frank Abagnale Jr croyait vivre dans une famille stable. Lorsqu'il apprend que ses parents ont décidé de divorcer, il ne supporte pas la situation et, sous le choc, fugue. Bien vite confronté aux réalités de la vie en solitaire, il tente de s'insérer, mais découvre qu'il est plus facile d'endosser de faux chèques que de travailler. Il prend l'identité d'un pilote de ligne et mène la belle vie. Un agent du FBI opiniâtre le suit à la trace en espérant un jour le coincer.",
-    "movie_path": "/movies/1.mp4",
+    "movie_path": "/movies/Arrête-moi si tu peux.mp4",
     "realisator": "Steven Spielberg",
     "actors": "Leonardo DiCaprio, Tom Hanks, Christopher Walken",
     "gender": "Comédie dramatique",
     "duration": "2h 35min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img3.acsta.net/medias/nmedia/00/02/54/32/aff2.jpg"
   },
   {
     "id": 2,
-    "title": "Harry Potter et la pierre philosophale",
-    "synopsis": "Harry Potter, un jeune orphelin, est élevé par son oncle et sa tante qui le détestent. Alors qu'il était haut comme trois pommes, ces derniers lui ont raconté que ses parents étaient morts dans un accident de voiture.",
-    "movie_path": "/movies/2.mp4",
-    "realisator": "Chris Columbus",
-    "actors": "this beautiful kangaroo",
-    "gender": "SF, Magie",
-    "duration": "1h 55min",
-    "image_path": "/covers/hp-1.jpg"
-  },
-  {
-    "id": 3,
     "title": "Creed",
     "synopsis": "Après quelques victoires faciles sur le ring de boxe, Adonis, fils du grand champion Apollo Creed, tente de se tailler une place parmi les professionnels. Il quitte Los Angeles et se rend à Philadelphie pour rencontrer Rocky Balboa, vieux rival et ami de son père.",
-    "movie_path": "/movies/3.mp4",
+    "movie_path": "/movies/Creed.mp4",
     "realisator": "Ryan Coogler",
     "actors": "Michael B. Jordan, Sylvester Stallone, Tessa Thompson",
     "gender": "Drame, Sport",
     "duration": "2h 21min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img6.acsta.net/pictures/15/11/09/16/24/355502.jpg"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Fast and Furious 5",
     "synopsis": "L'ancien policier Brian O'Conner et son ami l'ex-prisonnier Dom Toretto sont maintenant tous deux considérés comme des ennemis de l'État. Après que Brian et Mia ont aidé Dom à s'évader de prison, ils ont traversé assez de frontières et brisé assez de lois pour attirer l'attention des autorités.",
-    "movie_path": "/movies/4.mp4",
+    "movie_path": "/movies/Fast and Furious 5.mp4",
     "realisator": " Justin Lin",
     "actors": "Vin Diesel, Paul Walker, Dwayne Johnson",
     "gender": "Action, Voitures",
     "duration": "2h 16min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img5.acsta.net/medias/nmedia/18/82/46/71/19690319.jpg"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Spider-Man : No Way Home",
     "synopsis": "Avec l'identité de Spiderman désormais révélée, celui-ci est démasqué et n'est plus en mesure de séparer sa vie normale en tant que Peter Parker des enjeux élevés d'être un superhéros. Lorsque Peter demande de l'aide au docteur Strange, les enjeux deviennent encore plus dangereux, l'obligeant à découvrir ce que signifie vraiment être Spiderman.",
-    "movie_path": "/movies/5.mp4",
+    "movie_path": "/movies/Spider-Man No Way Home.mp4",
     "realisator": "Jon Watts",
     "actors": "Tom Halland, Zendaya, Tobey Maguire, Andrew Garfield",
     "gender": "Fantastique, Super-héros",
     "duration": "3h 1min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img4.acsta.net/pictures/21/11/16/10/01/4860598.jpg"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Django Unchained",
     "synopsis": "Deux ans avant la Guerre civile, un ancien esclave du nom de Django s'associe avec un chasseur de primes d'origine allemande qui l'a libéré: il accepte de traquer avec lui des criminels recherchés. En échange, il l'aidera à retrouver sa femme perdue depuis longtemps et esclave elle aussi.",
-    "movie_path": "/movies/6.mp4",
+    "movie_path": "/movies/Django Unchained.mp4",
     "realisator": "Quentin Tarantino",
     "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
     "gender": "Western",
     "duration": "3h 15min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img6.acsta.net/medias/nmedia/18/90/08/59/20366454.jpg"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Les Tuches 1",
     "synopsis": "A Bouzolles, tout le monde connaît la famille Tuche. Jeff, Cathy et leurs trois enfants vivent du système D. Respectueuse de la philosophie Tuche, l'homme n'est pas fait pour travailler, toute la famille s'emploie à être heureuse malgré le cruel manque de revenus. Leurs vies étaient toutes tracées. Ils seraient toujours pauvres, mais heureux.",
-    "movie_path": "/movies/7.mp4",
+    "movie_path": "/movies/Les Tuches 1.mp4",
     "realisator": "Olivier Baroux",
     "actors": "Jean Paul Roove, Théo Fernandez, Isabelle Nanty",
     "gender": "100% Comédie",
     "duration": "1h 35min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img2.acsta.net/medias/nmedia/18/79/51/22/19732939.jpg"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Bullet Train",
     "synopsis": "Cinq tueurs à gages se retrouvent dans un train à grande vitesse voyageant entre Tokyo et Morioka et ne faisant que très peu d'arrêts. Les cinq criminels vont découvrir qu'ils sont tous liés par leur mission, se demandent qui va en sortir vivant et s'interrogent sur ce qui les attend à la gare d'arrivée.",
-    "movie_path": "/movies/8.mp4",
+    "movie_path": "/movies/Bullet Train.mp4",
     "realisator": "David Leitch",
     "actors": "Brad Pitt, Joey King, Aaron Taylor-Johnson",
     "gender": "Comédie d'action",
     "duration": "2h 15min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img2.acsta.net/pictures/22/07/13/11/36/3514892.jpg"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Le loup de Wall Street",
     "synopsis": "Sa licence de courtier en poche, et les narines déjà pleines de cocaïne, Jordan Belfort est prêt à conquérir Wall Street. Ce jour d'octobre, un krach, le plus important depuis 1929, vient piétiner ses rêves de grandeur. C'est finalement à Long Island qu'il échoue et qu'il monte sa propre affaire de courtage. Son créneau : le hors-cote. Sa méthode : l'arnaque. Son équipe : des vendeurs ou des petits trafiquants.",
-    "movie_path": "/movies/9.mp4",
+    "movie_path": "/movies/Le loup de Wall Street.mp4",
     "realisator": "Martin Scorsese",
     "actors": "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
     "gender": "Comédie Biographique",
     "duration": "2h 59min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img6.acsta.net/pictures/210/604/21060483_20131125114549726.jpg"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Intouchables",
     "synopsis": "Tout les oppose et il était peu probable qu'ils se rencontrent un jour, et pourtant. Philippe, un riche aristocrate devenu tétraplégique après un accident de parapente va engager Driss, un jeune homme d'origine sénégalaise tout droit sorti de prison, comme auxiliaire de vie à domicile. Pourquoi lui ? Tout simplement parce qu'il ne regarde pas Philippe avec le même regard de pitié que les autres candidats.",
-    "movie_path": "/movies/10.mp4",
+    "movie_path": "/movies/Intouchables.mp4",
     "realisator": "Olivier Nakache, Éric Toledano",
     "actors": "Omar Sy, François Cluzet",
     "gender": "Biopic, Comédie dramatique",
     "duration": "1h 52min",
-    "image_path": "/covers/hp-1.jpg"
+    "image_path": "https://fr.web.img6.acsta.net/medias/nmedia/18/82/69/17/19806656.jpg"
   }
 ]
