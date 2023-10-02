@@ -36,12 +36,13 @@ const NavBar = () => {
     <div className="w-full bg-background-500 py-4 sticky top-0 z-40 lg:py-6">
       <div className="flex flex-row justify-between items-center px-5 lg:px-20">
         <div className="flex flex-row gap-x-20">
-          <Image
-            alt="what2watch-logo"
-            width={150}
-            height={31}
-            src={"/what2watch-logo.svg"}
-          />
+          <Link href={"/"}>
+            <Image
+              alt="what2watch-logo"
+              width={150}
+              height={31}
+              src={"/what2watch-logo.svg"}/>
+          </Link>
           <div className={isDesktop ? "flex flex-row gap-x-5" : "hidden"}>
             {menuLinks.map((link) => (
               <Link href={link.path} key={link.label}>
