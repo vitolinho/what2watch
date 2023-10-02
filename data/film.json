@@ -17,7 +17,7 @@
     "movie_path": "/movies/Creed.mp4",
     "realisator": "Ryan Coogler",
     "actors": "Michael B. Jordan, Sylvester Stallone, Tessa Thompson",
-    "gender": "Drame, Sport",
+    "gender": "Drame · Sport",
     "duration": "2h 21min",
     "image_path": "https://fr.web.img6.acsta.net/pictures/15/11/09/16/24/355502.jpg"
   },
@@ -28,7 +28,7 @@
     "movie_path": "/movies/Fast and Furious 5.mp4",
     "realisator": " Justin Lin",
     "actors": "Vin Diesel, Paul Walker, Dwayne Johnson",
-    "gender": "Action, Voitures",
+    "gender": "Action · Voitures",
     "duration": "2h 16min",
     "image_path": "https://fr.web.img5.acsta.net/medias/nmedia/18/82/46/71/19690319.jpg"
   },
@@ -39,7 +39,7 @@
     "movie_path": "/movies/Spider-Man No Way Home.mp4",
     "realisator": "Jon Watts",
     "actors": "Tom Halland, Zendaya, Tobey Maguire, Andrew Garfield",
-    "gender": "Fantastique, Super-héros",
+    "gender": "Fantastique · Super-héros",
     "duration": "3h 1min",
     "image_path": "https://fr.web.img4.acsta.net/pictures/21/11/16/10/01/4860598.jpg"
   },
@@ -94,7 +94,7 @@
     "movie_path": "/movies/Intouchables.mp4",
     "realisator": "Olivier Nakache, Éric Toledano",
     "actors": "Omar Sy, François Cluzet",
-    "gender": "Biopic, Comédie dramatique",
+    "gender": "Biopic · Comédie dramatique",
     "duration": "1h 52min",
     "image_path": "https://fr.web.img6.acsta.net/medias/nmedia/18/82/69/17/19806656.jpg"
   }
