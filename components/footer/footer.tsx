@@ -14,7 +14,7 @@ const Footer = () => {
   }, [])
   return (
     <div className={`${isDesktop ? "px-20 py-6" : "px-5 py-5"} w-full static bottom-0`}>
-      <p className="body-lg text-text-500">Tous les droits sont réservés à © what2watch.vercel.app | site crée par <a href="https://wa.me/767487478" className="text-primary-500 font-bold" target="_blank">Vitomir</a></p>
+      <p className="body-lg text-text-500">Tous les droits sont réservés à © what2watch-mauve.vercel.app | site crée par <a href="https://wa.me/767487478" className="text-primary-500 font-bold" target="_blank">Vitomir</a></p>
     </div>
   )
 }
