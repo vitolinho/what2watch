@@ -20,7 +20,7 @@ const Footer = () => {
         <Link href={"/cgu"}>
           <Button variant={"link"} size={`${isDesktop ? "md" : "lg"}`} className="pl-0">Conditions Générales d&apos;Utilisation</Button>
         </Link>
-        <Link href={"/#"}>
+        <Link href={"/pdc"}>
           <Button variant={"link"} size={`${isDesktop ? "md" : "lg"}`} className="pl-0">Politique de Confidentialité</Button>
         </Link>
       </div>
