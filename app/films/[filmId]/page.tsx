@@ -4,9 +4,17 @@ import Footer from "@/components/footer/footer"
 import NavBar from "@/components/navbar/navbar"
 import VideoPlayer from "@/components/videoPlayer/videoPlayer"
 import film from "@/data/film.json"
+import type { Metadata } from "next"
 
 interface IParameters {
   filmId: number
+}
+
+export async function generateMetadata({ params }: { params:IParameters}): Promise<Metadata> {
+  const data = film[params.filmId - 1]
+  return {
+    title: `${data.title} - What2Watch`
+  }
 }
 
 export default function Home({ params }:{ params:IParameters}) {

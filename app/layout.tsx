@@ -9,7 +9,7 @@ const hind = Hind({
 })
 
 export const metadata: Metadata = {
-  title: "What2Watch",
+  title: "Accueil - What2Watch",
   description: "What2Watch is a streaming website"
 }
 

@@ -42,7 +42,7 @@ const HeroBanner: React.FC<HeroBannerProperties> = ({ backgroundImage, title, de
           <p className="body-lg">{description}</p>
         </div>
         <div className="flex flex-row gap-x-10 z-20">
-          <Link href={`/films/${id}/#watch-movie`}>
+          <Link href={`/films/${id}`}>
             <Button variant={"primary"} size={"lg"} icon={<RiPlayFill/>} iconPosition="left">Lecture</Button>
           </Link>
           <Link href={`/films/${id}`}>
